@@ -22,7 +22,7 @@ const Menu = ({portfolioMenu}) => {
                                     </li>
                                 </ul>
                             </div>
-                            <h1>{item.title}</h1>
+                            <h3>{item.title}</h3>
                             <p>{item.description}</p>
                         </div>
                     </div>
@@ -34,9 +34,31 @@ const Menu = ({portfolioMenu}) => {
 
 
 const MenuStyled = styled.div`
-img {
-    width: 220px;
-}
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-gap: 2rem;
+
+        .grid-item {
+            .portfolio-content {
+                display: block;
+                position: relative;
+
+                img {
+                    width: 100%;
+                    height: 30vh;
+                    object-fit: conver;
+                }
+
+                ul {
+                    display: none
+                }
+
+                h3 {
+                    font-size: 1.5rem;
+                }
+            }
+        }
+
 
 `
 export default Menu

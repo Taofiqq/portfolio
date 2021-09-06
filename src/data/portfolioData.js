@@ -1,8 +1,8 @@
 // Export the portfolio Images
 import portfolioImg1 from '.././img/beats.jpg';
 import portfolioImg2 from '.././img/millionaire.jpg';
-import portfolioImg3 from '.././img/smoothie.jpg';
-import portfolioImg4 from '.././img/sneakers.jpg';
+// import portfolioImg3 from '.././img/smoothie.jpg';
+// import portfolioImg4 from '.././img/sneakers.jpg';
 
 
 // create the data array for each of the portfolio data
@@ -28,7 +28,7 @@ import portfolioImg4 from '.././img/sneakers.jpg';
     },
     {
         id:3, 
-        image: portfolioImg3, 
+        image: portfolioImg1, 
         title: 'Smoothie Shop + Jwt Auth',
         source: 'https://www.google.com',
         demo: 'https://www.google.com',
@@ -37,7 +37,7 @@ import portfolioImg4 from '.././img/sneakers.jpg';
     },
     {
         id:4, 
-        image: portfolioImg4, 
+        image: portfolioImg2, 
         title: 'Sneakers Collection Website',
         source: 'https://www.google.com',
         demo: 'https://www.google.com',
